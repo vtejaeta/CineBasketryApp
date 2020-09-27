@@ -1,0 +1,172 @@
+.specific__moviePoster {
+  height: 650px;
+  width: 450px;
+  border-radius: 5px;
+}
+
+.specific__movieCard {
+  max-width: 1400px;
+  padding-top: 100px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.specific__movieCard img {
+  margin-left: 60px;
+}
+
+.specific__cardRight {
+  margin-left: 50px;
+  font-family: "Inter", sans-serif;
+}
+
+.specific__cardRight .back {
+  margin-bottom: 50px;
+  border: none;
+  outline: none;
+  background-color: white;
+  cursor: pointer;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.specific__cardRight > h1 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.specific__cardRight > h1 > span {
+  font-weight: 600;
+}
+
+.specific__cardRight .runtime {
+  margin-bottom: 15px;
+}
+
+.specific__cardRight .genres {
+  margin-bottom: 50px;
+}
+
+.specific__cardRight .overview {
+  width: 75%;
+  color: #757575;
+  margin-bottom: 50px;
+  line-height: 25px;
+}
+
+.specific__cardRight .trailer {
+  font-family: "Inter", sans-serif;
+}
+
+.trailer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #c92e2b;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 20px;
+  background-color: #fde9e9;
+  cursor: pointer;
+  outline: none;
+}
+.trailer:hover {
+  color: white;
+  background-color: #c92e2b;
+}
+
+a {
+  text-decoration: none;
+}
+
+.loading__spinner {
+  padding-top: 100px;
+}
+
+@media only screen and (max-width: 920px) and (min-width: 700px) {
+  .specific__moviePoster {
+    height: 400px;
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 700px) and (min-width: 600px) {
+  img.specific__moviePoster {
+    max-height: 550px;
+    max-width: 550px;
+    margin-left: 0px;
+    margin-bottom: 40px;
+  }
+
+  .specific__movieCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .specific__cardRight {
+    margin-left: 100px;
+  }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 450px) {
+  img.specific__moviePoster {
+    max-height: 350px;
+    max-width: 300px;
+    margin-left: 0px;
+    margin-bottom: 40px;
+  }
+
+  .specific__movieCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .specific__cardRight {
+    margin-left: 100px;
+  }
+}
+
+@media only screen and (max-width: 450px) and (min-width: 350px) {
+  img.specific__moviePoster {
+    max-height: 300px;
+    max-width: 300px;
+    margin-left: 0px;
+    margin-bottom: 40px;
+  }
+
+  .specific__movieCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .specific__cardRight {
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 350px) and (min-width: 300px) {
+  img.specific__moviePoster {
+    max-height: 250px;
+    max-width: 250px;
+    margin-left: 0px;
+    margin-bottom: 40px;
+  }
+
+  .specific__movieCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .specific__cardRight {
+    margin-left: 30px;
+  }
+}
