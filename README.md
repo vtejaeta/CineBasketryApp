@@ -13,6 +13,8 @@ After, one can copy them into .env file and use the app
 ![Cine-basketry-app - Generic Laptop - 2020-27-9 at 4 30 13 PM](https://user-images.githubusercontent.com/65386350/94363616-0830f580-00e1-11eb-9ffb-9dffcd9239e9.jpg)
 
 
-
 ### Live URL
 https://cine-basketry-app.vercel.app/browse/popular
+
+
+#### Whole Design Credits goes to [Ian Trent](https://iantrent.com/)
