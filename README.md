@@ -17,4 +17,4 @@ After, one can copy them into .env file and use the app
 https://cine-basketry-app.vercel.app/browse/popular
 
 
-#### Whole Design Credits goes to [Ian Trent](https://iantrent.com/)
+#### Whole Design Credits goes to [Ian Trent](https://moviac.iantrent.com/)
